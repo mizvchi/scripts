@@ -5,10 +5,10 @@ These are the utility scripts I use to simplify some tasks.
 ## Scripts
 
 | Script			| Usage				| Description																	|
-|:-----------------:|:-----------------:|:-----------------------------------------------------------------------------:|
-| [ftp](bin/ftp)	| ftp <directory>	| Creates a directory, moves into it, copies libft template files, opens nvim.	|
+|:-----------------:|:------------------|:------------------------------------------------------------------------------|
+| [ftp](bin/ftp)	| ftp \<directory\>	| Creates a directory, moves into it, copies libft template files, opens nvim.	|
 | [g](bin/g)		| g					| Combine git commands for easier adds, commits, pushs.							|
-| [mcd](bin/mcd)	| mcd <directory>	| Creates a directory and moves into it.
+| [mcd](bin/mcd)	| mcd \<directory\>	| Creates a directory and moves into it.
 
 ## How to use
 
