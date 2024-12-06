@@ -14,6 +14,11 @@ ftp() {
 
     local dir="$1"
 
+	# Change to match your /path/to/libft
+	local libft_dir="~/Templates/ft_libft"
+	# Change to match your editor or alias
+	local editor="v"
+
     # Check if the directory already exists
     if [ -d "$dir" ]; then
         echo "Error: Directory '$dir' already exists."
@@ -33,13 +38,11 @@ ftp() {
     }
 
     # Copy the contents of ~/Templates/ft_libft into the new directory
-	# Change to match your /path/to/libft
-    cp -r ~/Templates/ft_libft/* . || {
+    cp -r "$libft_dir"/* . || {
         echo "Error: Failed to copy contents from ~/Templates/ft_libft."
         return 1
     }
 
     # Start Neovim using the alias 'v'
-	# Change to match your editor / alias
-	v
+    $editor
 }
