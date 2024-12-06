@@ -33,11 +33,17 @@ ftp() {
     }
 
     # Copy the contents of ~/Templates/ft_libft into the new directory
+	#
+	# Change to match your /path/to/libft
+	#
     cp -r ~/Templates/ft_libft/* . || {
         echo "Error: Failed to copy contents from ~/Templates/ft_libft."
         return 1
     }
 
     # Start Neovim using the alias 'v'
-    v
+    # 
+	# Change to match your editor / alias
+	#
+	v
 }
