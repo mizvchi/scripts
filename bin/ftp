@@ -17,7 +17,7 @@ ftp() {
 	# Change to match your /path/to/libft
 	local libft_dir="$HOME/Templates/ft_libft"
 	# Change to match your editor or alias
-	local editor="v"
+	local editor="nvim"
 
     # Check if the directory already exists
     if [ -d "$dir" ]; then
