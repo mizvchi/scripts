@@ -1,6 +1,6 @@
 # Mizvchi's shell scripts
 
-These are the utility scripts I use to simplify some tasks.
+These are the utility scripts I use to simplify redundant tasks.
 
 ## Scripts
 
@@ -31,12 +31,12 @@ done
 
 Then reload your configuration file :
 
-zsh
+* _zsh_
 ```
 source $HOME/.zshrc
 ```
 
-bash
+* _bash_
 ```
 source $HOME/.bashrc
 ```
