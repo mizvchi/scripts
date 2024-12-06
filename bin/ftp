@@ -13,11 +13,9 @@ ftp() {
     fi
 
     local dir="$1"
+	local libft_dir="~/Templates/ft_libft"	# Change to match your /path/to/libft
+	local editor="v"	# Change to match your editor or alias
 
-	# Change to match your /path/to/libft
-	local libft_dir="~/Templates/ft_libft"
-	# Change to match your editor or alias
-	local editor="v"
 
     # Check if the directory already exists
     if [ -d "$dir" ]; then
