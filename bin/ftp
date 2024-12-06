@@ -1,0 +1,43 @@
+#!/usr/bin/env bash
+
+ftp() {
+    # Function to display usage message
+    usage() {
+        echo "Usage: ftp <directory_name>"
+    }
+
+    # Check if a directory name was provided
+    if [ -z "$1" ]; then
+        usage
+        return 1
+    fi
+
+    local dir="$1"
+
+    # Check if the directory already exists
+    if [ -d "$dir" ]; then
+        echo "Error: Directory '$dir' already exists."
+        return 1
+    fi
+
+    # Create the directory
+    mkdir -p "$dir" || {
+        echo "Error: Failed to create directory '$dir'."
+        return 1
+    }
+
+    # Move into the new directory
+    cd "$dir" || {
+        echo "Error: Failed to enter directory '$dir'."
+        return 1
+    }
+
+    # Copy the contents of ~/Templates/ft_libft into the new directory
+    cp -r ~/Templates/ft_libft/* . || {
+        echo "Error: Failed to copy contents from ~/Templates/ft_libft."
+        return 1
+    }
+
+    # Start Neovim using the alias 'v'
+    v
+}
