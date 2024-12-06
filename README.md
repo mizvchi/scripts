@@ -33,12 +33,12 @@ Then reload your configuration file :
 
 * _zsh_
 ```
-source $HOME/.zshrc
+source ~/.zshrc
 ```
 
 * _bash_
 ```
-source $HOME/.bashrc
+source ~/.bashrc
 ```
 
 Now you can run the scripts like regular commands from anywhere in your system.
