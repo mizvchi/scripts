@@ -15,7 +15,7 @@ ftp() {
     local dir="$1"
 
 	# Change to match your /path/to/libft
-	local libft_dir="~/Templates/ft_libft"
+	local libft_dir="$HOME/Templates/ft_libft"
 	# Change to match your editor or alias
 	local editor="v"
 
