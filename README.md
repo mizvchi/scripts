@@ -1,6 +1,7 @@
 # Mizvchi's shell scripts
 
 These are the utility scripts I use to simplify redundant tasks.
+_(Truth being that I'm just lazy)_
 
 ## Scripts
 
