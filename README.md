@@ -8,7 +8,6 @@ _(Truth being that I'm just lazy)_
 
 | Script				| Usage					| Description																	|
 |:---------------------:|:----------------------|:------------------------------------------------------------------------------|
-| [__ftp__](bin/ftp)	| ftp \<directory\>		| Creates a directory, moves into it, copies libft template files, opens nvim.	|
 | [__g__](bin/g)		| g						| Combines git commands for easier adds, commits, pushs.						|
 | [__mcd__](bin/mcd)	| mcd \<directory\>		| Creates a directory and moves into it.										|
 
