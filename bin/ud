@@ -1,14 +1,14 @@
 #!/usr/bin/env bash
 
-if ! mountpoint -q /boot; then
-	echo "⚠️  /boot is not mounted! Please mount it before updating."
-	return 1
-fi
+ud() {
+  if ! mountpoint -q /boot; then
+    echo "🔄 /boot is not mounted. Attempting to mount..."
+    if ! sudo mount /boot; then
+      echo "❌ Failed to mount /boot. Aborting update."
+      return 1
+    fi
+  fi
 
-if ! mountpoint -q /boot/efi; then
-	echo "⚠️  /boot/efi is not mounted! Please mount it before updating."
-	return 1
-fi
-
-echo "✅ All required mount points are OK. Proceeding with update..."
-sudo pacman -Syu
+  echo "✅ /boot is mounted. Proceeding with update..."
+  sudo pacman -Syu
+}
