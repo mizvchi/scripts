@@ -10,7 +10,6 @@ _(Truth being that I'm just lazy)_
 |:---------------------:|:----------------------|:------------------------------------------------------------------------------|
 | [__g__](bin/g)		| g						| Combines git commands for easier adds, commits, pushs.						|
 | [__mcd__](bin/mcd)	| mcd \<directory\>		| Creates a directory and moves into it.										|
-| [__ud__](bin/ud)		| ud					| (Arch Only) Checks if the `/boot` partition is mounted and updates the system	|
 
 ## How to use
 

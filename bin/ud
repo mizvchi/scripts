@@ -10,5 +10,5 @@ ud() {
   fi
 
   echo "✅ /boot is mounted. Proceeding with update..."
-  sudo pacman -Syu
+  sudo pacman -Syyu --noconfirm
 }
