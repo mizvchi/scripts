@@ -4,6 +4,11 @@ These are the utility scripts I use to simplify redundant tasks.
 
 _(Truth being that I'm just lazy)_
 
+
+I'm open to suggestions / more scripts, so feel free to contact me if you want to.
+
+***`@mizvchi` on Discord***
+
 ## Scripts
 
 | Script				| Usage					| Description																	|
