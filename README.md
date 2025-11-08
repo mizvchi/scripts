@@ -31,7 +31,7 @@ You will then have to source the folder in your shell configuration.
 Edit your `~/.bashrc` / `~/.zshrc` file, and add the following code :
 ```
 # Source all scripts in ~/.sh
-for script in $HOME/.sh*; do
+for script in $HOME/.sh/*; do
     [ -f "$script" ] && source "$script"
 done
 ```
