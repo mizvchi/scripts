@@ -32,7 +32,7 @@ Edit your `~/.bashrc` / `~/.zshrc` file, and add the following code :
 ```
 # Source all scripts in ~/.sh
 for script in $HOME/.sh/*; do
-    [ -f "$script" ] && source "$script"
+    [ -x "$script" ] && source "$script"
 done
 ```
 
